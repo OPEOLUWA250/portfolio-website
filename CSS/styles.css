@@ -335,15 +335,27 @@ a.nav-link.active{
     .site-introduction .img-fluid {
         margin-right: 0;
     }
-    
+
     .subscribe .input-group {
         left: 0;
+    }
+
+    .project-area button:hover {
+        outline: 0px !important; 
+        color: #fff;
+        font-weight: 900; 
+        border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
     }
    
     .footer-area .copyright .fonts a > i {
         font-size: 2rem;
         padding: 0.5rem;
         color: #999;
+    }
+
+    .footer-area .copyrights .para a {
+        text-decoration: none;
+        font-size: 1.5rem;
     }
 
 }
