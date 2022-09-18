@@ -325,3 +325,25 @@ a.nav-link.active{
   
 
 }
+
+@media (min-width: 390px) and (max-width: 500px) {
+
+    .site-introduction .site-title {
+        margin: 1.5rem 0;
+    }
+
+    .site-introduction .img-fluid {
+        margin-right: 0;
+    }
+    
+    .subscribe .input-group {
+        left: 0;
+    }
+   
+    .footer-area .copyright .fonts a > i {
+        font-size: 2rem;
+        padding: 0.5rem;
+        color: #999;
+    }
+
+}
