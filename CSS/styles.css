@@ -364,3 +364,31 @@ a.nav-link.active{
     }
 
 }
+
+@media (min-width: 768px) and (max-width: 1400px) {
+
+    .site-introduction {
+        margin-top: 2rem;
+    }
+
+   .site-introduction .img-fluid {
+       margin-left: 2rem;
+   }
+
+   .subscribe {
+       height: 20vh;
+       width: 90vw;
+       margin-left: 2.5rem;
+   }
+
+   .project-area .our-project .project-img {
+       width: 85vw;
+       height: 45vh;
+       margin-left: -4rem;
+   }
+
+   .project-area .title {
+       margin-left: -4rem;
+   }
+
+}
