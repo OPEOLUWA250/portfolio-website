@@ -179,6 +179,10 @@ a.nav-link.active{
     padding-left: 2rem;
 }
 
+.project-area .title {
+    margin-left: -9rem;
+}
+
 .button-group  button{
     background: transparent;
     border: none;
@@ -244,8 +248,8 @@ a.nav-link.active{
       color: #999;
   }
 
-  .footer-area .copyright .fonts a:hover > i,
-  .footer-area .copyright .fonts a:focus > i {
+  .footer-area .copyright .fonts a > i:hover,
+  .footer-area .copyright .fonts a > i:focus {
       color: #854fee;
   }
 
@@ -316,6 +320,16 @@ a.nav-link.active{
         border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
     }
 
+    .project-area .our-project .project-img {
+        width: 85vw;
+        height: 40vh;
+        margin-left: -3rem;
+    }
+ 
+    .project-area .title {
+        margin-left: -5rem;
+    }
+
     .footer-area .copyright .fonts a > i {
         font-size: 2rem;
         padding: 0.5rem;
@@ -351,6 +365,16 @@ a.nav-link.active{
         font-weight: 900; 
         border: linear-gradient(90deg, #4458dc 0%, #854fee 100% );
     }
+
+    .project-area .our-project .project-img {
+        width: 85vw;
+        height: 40vh;
+        margin-left: -3rem;
+    }
+ 
+    .project-area .title {
+        margin-left: -5rem;
+    }
    
     .footer-area .copyright .fonts a > i {
         font-size: 2rem;
@@ -365,7 +389,7 @@ a.nav-link.active{
 
 }
 
-@media (min-width: 768px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 900px) {
 
     .site-introduction {
         margin-top: 2rem;
